@@ -1,0 +1,2 @@
+-string is defined by array with type char
+-We will have a sample with string in the Code folder
