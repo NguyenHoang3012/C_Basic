@@ -19,12 +19,8 @@ void Compare_String(char *str1,char *str2);
 int main()
 {
 	char str[100],str2[100],key;
-	do
-	{
-		printf("Input key:\n");
-		scanf("%c",&key);
-	}
-	while(sizeof(key)!=1);
+	printf("Input one key[a-z]:\n");
+	scanf("%c",&key);
 	Input_String(str);
 	Export_String(str);
 	Find_KeyWord(str,key);
